@@ -4,7 +4,7 @@
 }
 
 header, footer {
-     background-color: #2173b2;
+     background-color: #72fce1;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      align-items: center;
@@ -21,7 +21,7 @@ body{
 }
 
 a {
-     color: #fce172;
+     color: #000000;
 }
 
 /* Class selectors */
