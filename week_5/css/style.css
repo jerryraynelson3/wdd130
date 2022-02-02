@@ -1,0 +1,32 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+header, footer {
+     background-color: #2173b2;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+}
+
+main {
+     background-color: #fce172;
+}
+
+body{
+     font-size: 16px;
+     background-color: #fce172;
+}
+
+a {
+     color: #fce172;
+}
+
+/* Class selectors */
+
+.page {
+     max-width: 960px;
+     margin: 0 auto;
+}
