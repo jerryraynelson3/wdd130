@@ -15,9 +15,21 @@ main {
      background-color: #fce172;
 }
 
+main, header, footer {
+
+     border-top: 4px solid #C3F094;
+     border-bottom: 4px solid #C3F094;
+     border-left: 1px solid #C3F094;
+     border-right: 1px solid #C3F094;
+     font-family: courier new, helvetica, arial;
+     line-height: 1.5;
+     box-shadow: 10px 5px 5px #CE9BE5;
+
+}
+
 body{
      font-size: 16px;
-     background-color: #fce172;
+     background-color: #C3F094;
 }
 
 a {
