@@ -13,6 +13,7 @@ header, footer {
 
 main {
      background-color: #fce172;
+     text-align: center;
 }
 
 main, header, footer {
@@ -24,7 +25,6 @@ main, header, footer {
      font-family: courier new, helvetica, arial;
      line-height: 1.5;
      box-shadow: 10px 5px 5px #CE9BE5;
-
 }
 
 body{
