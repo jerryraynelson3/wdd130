@@ -6,9 +6,9 @@
 header, footer {
      background-color: #72fce1;
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
      align-items: center;
-     justify-content: center;
+     justify-items: left;
 }
 
 main {
@@ -24,21 +24,43 @@ main, header, footer {
      border-right: 1px solid #C3F094;
      font-family: courier new, helvetica, arial;
      line-height: 1.5;
-     box-shadow: 10px 5px 5px #CE9BE5;
 }
 
 body{
      font-size: 16px;
      background-color: #C3F094;
+     margin: 0px;
+     padding: 0px;
 }
 
 a {
      color: #000000;
 }
 
+ul {
+     display: flex;
+     flex-direction: row;
+     list-style-type: none;
+     font-size: 30px;
+     width: 130%;
+     margin: 0px;
+     justify-self: left;
+     position: relative;
+     left: -300px;
+}
+
+li {
+     margin: 10px;
+}
+
 /* Class selectors */
 
 .page {
-     max-width: 960px;
+     max-width: 1200px;
      margin: 0 auto;
+}
+
+.banner {
+     width: 100%;
+     margin: 0px;
 }
