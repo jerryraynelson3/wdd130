@@ -8,7 +8,7 @@ header, footer {
      display: grid;
      grid-template-columns: 1fr 1fr;
      align-items: center;
-     justify-items: left;
+     justify-content: center;
 }
 
 main {
@@ -33,8 +33,26 @@ body{
      padding: 0px;
 }
 
-a {
+nav a {
+     display: block;
+     color: #134266;
+     text-decoration: none;
+}
+
+nav a:hover {
+     display: block;
      color: #000000;
+     background: #fce172;
+}
+
+footer a {
+     position: relative;
+     right: -300px;
+}
+
+span {
+     position: relative;
+     right: -50px;
 }
 
 ul {
@@ -60,7 +78,103 @@ li {
      margin: 0 auto;
 }
 
+.picture {
+     position: relative;
+     width: 100%;
+}
+
+.banner img {
+     width: 100%;
+     height: 200%;
+}
+
+.info {
+     display: grid;
+}
+
+.info h2 {
+     box-sizing: content-box;
+     border: solid #c194f0 10px;
+     background: #c3f094;
+
+}
+
 .banner {
      width: 100%;
-     margin: 0px;
+     grid-column: 1/3;
+}
+
+.fun {
+     grid-column: 1/2;
+     text-align: center;
+     margin: auto;
+     padding: auto;
+}
+
+.funpic {
+     grid-column: 2/3;
+     margin: auto;
+     padding: auto;
+}
+
+.nature {
+     grid-column: 2/3;
+     text-align: center;
+     margin: auto;
+     padding: auto;
+}
+
+.naturepic {
+     grid-column: 1/2;
+     grid-row: 3/4;
+     margin: auto;
+     padding: auto;
+}
+
+.history {
+     grid-column: 1/2;
+     text-align: center;
+     margin: auto;
+     padding: auto;
+}
+
+.historypic {
+     grid-column: 2/3;
+     margin: auto;
+     padding: auto;
+}
+
+.closing{
+     grid-column: 1/3;
+     text-align: center;
+}
+
+.cta {
+     position: absolute;
+     top: 15%;
+     left: 5%;
+     background-color: #c3f094;
+     padding: 2rem;
+     padding-bottom: 4rem;
+     font-size: 25px;
+     opacity: .7;
+}
+
+.picture a {
+     display: block;
+     position: absolute;
+     left: 19%;
+     top: 37%;
+     color: #134266;
+     text-decoration: none;
+     font-size: 20px;
+     box-sizing: content-box;
+     border: solid #c194f0 10px;
+     padding: 5px;
+}
+
+.picture a:hover {
+     display: block;
+     background: #fce172;
+     color: #000000;
 }
