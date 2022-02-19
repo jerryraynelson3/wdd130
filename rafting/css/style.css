@@ -63,6 +63,10 @@ span {
      right: -50px;
 }
 
+h1 {
+     display: none;
+}
+
 ul {
      display: flex;
      list-style-type: none;
