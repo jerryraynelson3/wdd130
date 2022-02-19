@@ -108,40 +108,34 @@ li {
      grid-column: 1/2;
      text-align: center;
      margin: auto;
-     padding: auto;
 }
 
 .funpic {
      grid-column: 2/3;
      margin: auto;
-     padding: auto;
 }
 
 .nature {
      grid-column: 2/3;
      text-align: center;
      margin: auto;
-     padding: auto;
 }
 
 .naturepic {
      grid-column: 1/2;
      grid-row: 3/4;
      margin: auto;
-     padding: auto;
 }
 
 .history {
      grid-column: 1/2;
      text-align: center;
      margin: auto;
-     padding: auto;
 }
 
 .historypic {
      grid-column: 2/3;
      margin: auto;
-     padding: auto;
 }
 
 .closing{
