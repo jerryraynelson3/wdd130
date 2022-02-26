@@ -63,10 +63,6 @@ span {
      right: -50px;
 }
 
-h1 {
-     display: none;
-}
-
 ul {
      display: flex;
      list-style-type: none;
@@ -88,6 +84,19 @@ header img {
 .page {
      max-width: 1200px;
      margin: 0 auto;
+}
+
+.page h1 {
+     display: none;
+}
+
+.price {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.price main img {
+     width: 20rem;
 }
 
 .picture {
