@@ -105,6 +105,15 @@ header img {
      filter: drop-shadow(6px 3px 4px);
 }
 
+.plan {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.pallet img {
+     width: 100%;
+}
+
 .picture {
      position: relative;
      width: 100%;
