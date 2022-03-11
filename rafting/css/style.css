@@ -81,7 +81,7 @@ header img {
 
 /* Class selectors */
 
-.page {
+.page, .contact, .price, .plan {
      max-width: 1200px;
      margin: 0 auto;
 }
@@ -90,9 +90,19 @@ header img {
      display: none;
 }
 
-.price {
-     max-width: 1200px;
-     margin: 0 auto;
+.contact h1 {
+     margin: 2.5rem;
+}
+
+.contact h2, .plan h2 {
+     margin: 2.5rem 10rem 0rem 10rem;
+     box-sizing: content-box;
+     border: solid #c194f0 5px;
+     background: #c3f094;
+}
+
+.contact p, .plan p {
+     margin: 2.5rem 10rem 0rem 10rem;
 }
 
 .price main {
@@ -105,13 +115,12 @@ header img {
      filter: drop-shadow(6px 3px 4px);
 }
 
-.plan {
-     max-width: 1200px;
-     margin: 0 auto;
+.plan .logo img {
+     width: 150px;
 }
 
-.pallet img {
-     width: 100%;
+.plan .pallet img {
+     width: 40rem;
 }
 
 .picture {
