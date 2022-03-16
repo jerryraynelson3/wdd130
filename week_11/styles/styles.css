@@ -73,3 +73,24 @@ body {
     background-color: #9b4f96;
     padding-top: 20rem;
 }
+
+.warning {
+    background-color: #000;
+    padding-top: 20rem;
+}
+
+.warning p, .warning h1 {
+    color: white;
+}
+
+h1 {
+    padding-left: 45rem;
+}
+
+p {
+    padding-left: 40rem;
+}
+
+header img {
+    padding-left: 70rem;
+}
