@@ -70,8 +70,10 @@ button {
 }
 
 body {
+    display: flex;
     background-color: #9b4f96;
     padding-top: 20rem;
+    align-items: center;
 }
 
 .warning {
@@ -83,14 +85,10 @@ body {
     color: white;
 }
 
-h1 {
-    padding-left: 45rem;
+h1, p{
+    padding: 0rem 5rem;
 }
 
-p {
-    padding-left: 40rem;
-}
-
-header img {
-    padding-left: 70rem;
+img {
+    padding: 10rem;
 }
