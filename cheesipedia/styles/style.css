@@ -158,6 +158,13 @@ body{
     background-color: #E6D5A7;
     font-size: 1.5rem;
 }
+
+.gridcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
 .card{
     width: 35rem;
     height: 17.25rem;
@@ -190,4 +197,5 @@ body{
     background-color: #134266;
     font-size: 1.5rem;
     color: #eba619;
+    width: 6.5rem;
 }
