@@ -62,6 +62,10 @@ span {
     color: #eba619;
 }
 
+.maxwidth{
+    max-width: 1500px;
+}
+
 .aboutthesite {
     padding: 1rem;
 }
