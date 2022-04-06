@@ -63,6 +63,10 @@ span {
     color: #eba619;
 }
 
+body{
+    background-color: #cc0000;
+}
+
 .maxwidth{
     max-width: 1500px;
     margin: auto;
@@ -82,7 +86,7 @@ span {
 
 .colorandfont img {
     width: 50rem;
-    filter: drop-shadow(5px 5px 5px #ff0000);
+    filter: drop-shadow(5px 5px 5px #cc0000);
     padding: 1rem;
 }
 
