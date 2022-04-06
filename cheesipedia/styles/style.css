@@ -151,7 +151,7 @@ body{
     margin: 1rem 15rem 0rem 15rem;
 }
 
-.buttonstyle{
+.buttonstylehome{
     border-radius: 2rem;
     border-width: 1px;
     border-color: #ff0000;
@@ -159,10 +159,14 @@ body{
     font-size: 1.5rem;
 }
 .card{
-    width: 30rem;
+    width: 35rem;
+    height: 17.25rem;
     background-color: #E6D5A7;
     border-radius: 5rem;
-
+    display: flex;
+    flex-direction: row;
+    color: #cc0000;
+    margin: 2rem;
 }
 
 .card img{
@@ -170,6 +174,20 @@ body{
     margin: 2rem 2rem 0rem 2rem;
 }
 
+.info h3{
+    color: #cc0000;
+    font-size: 2rem;
+}
+
+.info{
+    margin: 1.25rem 3rem 0rem 0rem;
+}
+
 .card button{
-    margin: 0rem 5rem 2rem 5rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: #cc0000;
+    background-color: #134266;
+    font-size: 1.5rem;
+    color: #cc0000;
 }
