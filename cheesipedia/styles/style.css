@@ -200,3 +200,7 @@ body{
     color: #eba619;
     width: 6.5rem;
 }
+
+.contentcenter{
+    justify-items: center;
+}
