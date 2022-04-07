@@ -249,3 +249,21 @@ body{
 .boxshadowred{
     box-shadow: 5px 10px #cc0000;
 }
+
+.textcoloryellow{
+    color: #eba619;
+}
+
+textarea{
+    height: 8rem;
+    width: 15rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.positionbutton{
+    margin-left: 10rem;
+}
