@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Contact Us Page</title>
+     <meta name="description" content="Send us an email and let us know of things that we can improve on.  Let us know of any improvements to our data that we can make.">
+     <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+     <header>
+          <div class="logo">
+              <img src="images/logo.png" alt="Cheesipedia Logo">
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="index.html"><strong>Home</strong></a></li>
+                  <li><a href="meet-the-cheeses.html"><strong>Meet The Cheeses</strong></a></li>
+                  <li><a href="cheesy-merch.html"><strong>Cheesy Merch</strong></a></li>
+                  <li><a href="contact-us.html"><strong>Contact Us</strong></a></li>
+              </ul>
+              <h1>Cheesipedia</h1>
+          </nav>
+     </header>
+     <main class="contentcenter grid">
+          <h2 class="marginheader mediumfont gridcolumn1-2">Contact Us</h2>
+          <p class="marginmedium mediumsmallfont gridcolumn1-2">Send us a message!  We are open to suggestions for what to add to the site.  Please feel free to correct us on any of the data that we have so that we can improve our data accuracy.  Please include your name and email address so that we may contact you in return.</p>
+          <form action="thanks.html" method="get" id="contact-form" class="gridcolumn1-2 marginsmall">
+               <ul class="contact">
+                    <li>
+                         <label for="msg" class="textcoloryellow">Message:</label>
+                         <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li>
+                         <button type="submit" form="contact-form" value="Submit" class="buttonstylehome positionbutton">Send Message</button>
+                    </li>
+               </ul>
+              </form>
+     </main>
+     <footer>
+          <span>&copy;2022 The National Institute of Cheeses</span>
+     </footer>
+</body>
+</html>
