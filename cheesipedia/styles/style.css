@@ -106,6 +106,10 @@ body{
     margin: 5rem;
 }
 
+.marginsmall{
+    margin: 2.5rem;
+}
+
 .marginheader{
     margin: 2rem 2rem 0rem 2rem;
 }
@@ -135,6 +139,10 @@ body{
     grid-row: 2;
 }
 
+.gridrow1-2{
+    grid-row: 1/3;
+}
+
 .gridrow3{
     grid-row: 3;
 }
@@ -143,8 +151,24 @@ body{
     grid-row: 4;
 }
 
+.gridrow5{
+    grid-row: 5;
+}
+
+.gridrow6{
+    grid-row: 6;
+}
+
+.gridrow5-6{
+    grid-row: 5/7;
+}
+
 .mediumwidth{
     width: 20rem;
+}
+
+.widewidth{
+    width: 40rem;
 }
 
 .imgmargin{
