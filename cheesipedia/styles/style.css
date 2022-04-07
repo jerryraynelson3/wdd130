@@ -94,6 +94,10 @@ body{
     font-size: 2rem;
 }
 
+.smallfont{
+    font-size: 1rem;
+}
+
 .textcenter{
     text-align: center;
 }
